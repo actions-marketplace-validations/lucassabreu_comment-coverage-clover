@@ -3,6 +3,7 @@ import { readFileSync, writeFileSync } from "fs";
 import { execSync } from "child_process";
 import { resolve } from "path";
 
+const __dirname = import.meta.dirname;
 const rootDir = resolve(__dirname, "..");
 
 const type = process.argv[2];

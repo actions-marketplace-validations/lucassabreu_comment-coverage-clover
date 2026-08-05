@@ -1,6 +1,7 @@
 {
   "declaration": false,
   "compilerOptions": {
+    "module": "es2022",
     "esModuleInterop": true,
     "sourceMap": true,
     "moduleResolution": "node",
